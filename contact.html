@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact - CVPAY</title>
+<style>
+body { background-color:#0B1220; color:#ffffff; font-family:Arial, sans-serif; line-height:1.6; margin:0; padding:20px;}
+a{color:#2563EB;}
+.section{ max-width:800px; margin:auto;}
+h1{ color:#2563EB; }
+label{display:block; margin-top:15px;}
+input, textarea { width:100%; padding:8px; margin-top:5px; border-radius:4px; border:1px solid #444; background-color:#111B2E; color:#fff;}
+button { margin-top:15px; background-color:#2563EB; color:#fff; padding:10px 20px; border:none; border-radius:4px; cursor:pointer;}
+</style>
+</head>
+<body>
+<div class="section">
+<h1>Contact Us</h1>
+<p>Have questions or want to discuss your integration? Fill out the form below or email us at <a href="mailto:info@cvpay.org">info@cvpay.org</a>.</p>
+<form action="https://formspree.io/f/mayvlzzy" method="POST">
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="_replyto" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required></textarea>
+<button type="submit">Send</button>
+</form>
+</div>
+</body>
+</html>
